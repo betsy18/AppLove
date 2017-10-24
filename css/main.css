@@ -127,10 +127,6 @@ button{
   right: auto;
 }
 
-#button{
- 
-}
-
 button a{
   color: white;
 }
@@ -154,20 +150,31 @@ article{
     font-size: 60px;
 }
 
-#article-p{
-  
-}
-
 .box-text{
   background: #EC7063;  
-  position: relative;
 }
 
 .box-text h2{
   margin: 0px;
 }
 
-.img-service{
-  float: left;
-  width: 100px;
+.img-services{
+  width: 190px;
+}
+
+.box-text-img{
+  display: inline-block;
+  color: white;
+  margin: 40px;
+  padding: 40px;
+}
+
+.container-section{
+  position: relative;
+  color: white;
+  top: 40px;
+}
+
+.box-text h6{
+  margin: 0px;
 }
