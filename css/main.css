@@ -109,4 +109,27 @@ img[alt="logo"]{
   top: 50px;
 }
 
+img[alt="home"]{
+  position: relative;
+}
 
+button{
+  background: #2ECC71;
+  padding: 10px;
+  border: 0px;
+  font-weight: 600px;
+}
+
+button a{
+  color: white;
+}
+
+article{
+  outline: 1px solid purple;
+  position: absolute;
+  color: black;
+  left: 300px;
+  bottom: 350px;
+  right: auto;
+  top: auto;
+}
