@@ -111,13 +111,24 @@ img[alt="logo"]{
 
 img[alt="home"]{
   position: relative;
+  width: 1700px;
 }
 
 button{
+  position: absolute;
   background: #2ECC71;
   padding: 10px;
   border: 0px;
+  font-size: 16px;
   font-weight: 600px;
+  top: 650px;
+  bottom: auto;
+  left: 730px;
+  right: auto;
+}
+
+#button{
+ 
 }
 
 button a{
@@ -127,9 +138,36 @@ button a{
 article{
   outline: 1px solid purple;
   position: absolute;
-  color: black;
-  left: 300px;
-  bottom: 350px;
+  color: white;
+  left: 360px;
+  bottom: 180px;
   right: auto;
   top: auto;
+}
+
+#article-h2{
+  margin-top: 20px;
+}
+
+
+#article-h1{
+    font-size: 60px;
+}
+
+#article-p{
+  
+}
+
+.box-text{
+  background: #EC7063;  
+  position: relative;
+}
+
+.box-text h2{
+  margin: 0px;
+}
+
+.img-service{
+  float: left;
+  width: 100px;
 }
