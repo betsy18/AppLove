@@ -85,6 +85,8 @@ footer{
 header{
   height: 120px;
   position: relative;
+  /*position: fixed;
+  z-index: 10px;*/
 }
 
 header a{
