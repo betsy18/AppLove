@@ -78,6 +78,7 @@ footer{
   background: #374858;
   padding: 5px;
   text-align: center;
+  position: relative;
 }
 
 header{
@@ -177,4 +178,26 @@ article{
 
 .box-text h6{
   margin: 0px;
+}
+
+.work{
+  outline: 1px solid black;
+}
+
+img[alt="hero"]{
+  height: 950px;
+  width: 950px;
+}
+
+.work-container{
+  position: relative;
+  outline: 1px solid orange;
+  display: inline-block;
+  margin: 24px;
+  width: 400px;
+}
+.work-img{
+  max-width: 100%;
+  outline: 1px solid blue;
+  float: left;
 }
