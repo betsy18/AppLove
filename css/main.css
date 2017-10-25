@@ -83,6 +83,7 @@ footer{
 
 header{
   height: 120px;
+  position: relative;
 }
 
 section{
@@ -112,7 +113,7 @@ img[alt="logo"]{
 
 img[alt="home"]{
   position: relative;
-  width: 1700px;
+  width: 100%;
 }
 
 button{
