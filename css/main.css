@@ -86,6 +86,10 @@ header{
   position: relative;
 }
 
+header a{
+  font-weight: 900;
+}
+
 section{
   outline: 1px solid green;
   text-align: center;
@@ -116,6 +120,10 @@ img[alt="home"]{
   width: 100%;
 }
 
+.section-home{
+  position: relative;
+}
+
 button{
   position: absolute;
   background: #2ECC71;
@@ -123,7 +131,7 @@ button{
   border: 0px;
   font-size: 16px;
   font-weight: 600px;
-  top: 650px;
+  top: 530px;
   bottom: auto;
   left: 730px;
   right: auto;
@@ -196,6 +204,7 @@ img[alt="hero"]{
   display: inline-block;
   margin: 24px;
   width: 400px;
+  font-weight: 900;
 }
 .work-img{
   max-width: 100%;
